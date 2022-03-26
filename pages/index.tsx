@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import Navbar from '../components/organisms/Navbar';
 import MainBanner from '../components/organisms/MainBanner';
-import TransactionSteps from '../components/molecules/TransactionSteps';
-import FeaturedGame from '../components/molecules/FeaturedGame';
+import TransactionSteps from '../components/organisms/TransactionSteps';
+import FeaturedGame from '../components/organisms/FeaturedGame';
 
 const Home: NextPage = () => {
   useEffect(() => {

@@ -1,4 +1,4 @@
-import GameItem from './GameItem';
+import GameItem from '../../molecules/GameItem';
 
 export default function FeaturedGame() {
   return (
