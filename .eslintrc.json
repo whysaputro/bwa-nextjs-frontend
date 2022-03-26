@@ -19,8 +19,18 @@
         "react",
         "@typescript-eslint"
     ],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/function-component-definition": "off",
+        "import/extensions": "off",
+        "jsx-a11y/anchor-is-valid": "off"
     }
 }
