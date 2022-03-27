@@ -1,6 +1,8 @@
 export default function SignUpForm() {
   return (
     <>
+      <h2 className="text-4xl fw-bold color-palette-1 mb-10">Sign Up</h2>
+      <p className="text-lg color-palette-1 m-0">Daftar dan bergabung dengan kami</p>
       <div className="pt-50">
         <label htmlFor="name" className="form-label text-lg fw-medium color-palette-1 mb-10">Full Name</label>
         <input

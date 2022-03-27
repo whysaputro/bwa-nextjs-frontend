@@ -14,8 +14,6 @@ export default function SignUp() {
               </a>
             </Link>
           </div>
-          <h2 className="text-4xl fw-bold color-palette-1 mb-10">Sign Up</h2>
-          <p className="text-lg color-palette-1 m-0">Daftar dan bergabung dengan kami</p>
           <SignUpForm />
         </form>
       </div>
