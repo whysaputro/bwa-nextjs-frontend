@@ -16,8 +16,6 @@ export default function SignIn() {
                   </a>
                 </Link>
               </div>
-              <h2 className="text-4xl fw-bold color-palette-1 mb-10">Sign In</h2>
-              <p className="text-lg color-palette-1 m-0">Masuk untuk melakukan proses top up</p>
               <SignInForm />
             </div>
           </form>
